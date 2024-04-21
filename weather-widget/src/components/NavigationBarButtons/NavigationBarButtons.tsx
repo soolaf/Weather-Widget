@@ -1,4 +1,5 @@
 import React from 'react';
+import './NavigationBarButtons.css';  
 
 type NavigationBarButtonsProps = {
     onClickButton: (option: string) => void;
