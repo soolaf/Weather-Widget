@@ -12,13 +12,15 @@
     font-size: 24px;
     margin-right: auto;
     background-image: linear-gradient(to bottom, #726a50, #FFA500, #a36424); 
+    -webkit-background-clip: text; 
+    color: transparent;
   }
   
   
   .header-container form {
     display: flex;
     align-items: center;
-    margin-right: 400px;
+    margin-right: 700px;
   }
   
   .header-container input[type="text"] {
