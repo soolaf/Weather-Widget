@@ -1,0 +1,35 @@
+.navigation-bar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.navigation-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-item {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation-item a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .navigation-bar {
+      padding: 5px; 
+    }
+  
+    .navigation-item {
+      margin-right: 10px; 
+    }
+  }
+
