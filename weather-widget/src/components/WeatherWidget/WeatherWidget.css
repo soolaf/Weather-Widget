@@ -1,0 +1,41 @@
+.weather-widget-container {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .weather-widget {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ece0d5, #e9ad70, #FFA500); ; 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%; 
+    max-width: 400px; 
+    margin-top: 20px; 
+  }
+  
+  .weather-icon {
+    margin-bottom: 20px;
+  }
+  
+  .temperature {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .weather {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .location {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .weather-widget {
+      width: 80%; 
+    }
+  }
