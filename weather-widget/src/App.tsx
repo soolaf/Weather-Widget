@@ -4,8 +4,8 @@ import Header from './components/Header/Header';
 import WeatherWidget from './components/WeatherWidget/WeatherWidget';
 
 const App: React.FC = () => {
-    const [inputValue, setInputValue] = useState('London');
-    const [location, setLocation] = useState('London');
+    const [inputValue, setInputValue] = useState('Netherlands');
+    const [location, setLocation] = useState('Netherlands');
     const [selectedButton, setSelectedButton] = useState('general');
 
     const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {

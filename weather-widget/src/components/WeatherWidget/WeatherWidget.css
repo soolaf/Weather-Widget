@@ -1,41 +1,51 @@
 .weather-widget-container {
     display: flex;
     justify-content: center; 
-  }
+}
   
-  .weather-widget {
+.weather-widget {
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom, #ece0d5, #e9ad70, #FFA500); ; 
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 60%; 
-    max-width: 400px; 
+    max-width: 300px; 
     margin-top: 20px; 
-  }
+}
   
-  .weather-icon {
-    margin-bottom: 20px;
-  }
+.weather-icon {
+    text-align: center;
+}
   
-  .temperature {
-    font-size: 20px;
+.temperature {
+    font-size: 24px;
     font-weight: bold;
+    text-align: center;
+}
+
+.weather {
+    padding-top: 15px;
+    font-size: 20px;
+    text-align: center;
     margin-bottom: 10px;
-  }
-  
-  .weather {
+}
+
+.feels-like {
+    padding-top: 12px;
     font-size: 16px;
-    margin-bottom: 10px;
-  }
-  
-  .location {
+    text-align: center;
+}
+
+.humidity {
+    padding-top: 12px;
     font-size: 14px;
-    color: #666;
-  }
-  
-  @media (max-width: 768px) {
-    .weather-widget {
-      width: 80%; 
-    }
-  }
+    text-align: center;
+}
+
+.location {
+    padding-top: 20px;
+    font-size: 25px;
+    color: #331608;
+    text-align: center;
+}
