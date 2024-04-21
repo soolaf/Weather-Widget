@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import NavigationBarButtons from './components/NavigationBarButtons/NavigationBarButtons';
 import Header from './components/Header/Header';
+import WeatherWidget from './components/WeatherWidget/WeatherWidget';
 
 const App: React.FC = () => {
     const [inputValue, setInputValue] = useState('London');
@@ -28,6 +29,7 @@ const App: React.FC = () => {
                 onFormSubmit={handleFormSubmit}
             />
             <NavigationBarButtons onClickButton={onClickButton} />
+            <WeatherWidget location={location} selectedButton={selectedButton} />
         </div>
     );
 };
